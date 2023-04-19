@@ -1,6 +1,6 @@
 # 💻Programmers Lv.0 문제 풀이
 
-> 4문제씩 문제 풀이
+> **정답률 높은 순**으로, 매일 **4문제씩** 문제 풉니다!
 
 [코딩테스트 입문 | 프로그래머스 스쿨](https://school.programmers.co.kr/learn/challenges/beginner?order=acceptance_desc&languages=javascript&page=1, "programmers link")
 
@@ -12,11 +12,11 @@
 - 두 수의 곱
 - 몫 구하기
 
-### Day2 사칙연산, 조건문, 배열
-- 두 수의 나눗셈
+### Day2 사칙연산, 조건문
 - 숫자 비교하기
-- 분수의 덧셈
-- 배열 두 배 만들기
+- 나머지 구하기
+- 나이 출력
+- 두 수의 나눗셈
 
 ### Day3 
 - ...
