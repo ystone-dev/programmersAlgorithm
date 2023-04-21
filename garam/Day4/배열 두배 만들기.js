@@ -8,7 +8,7 @@ function solution(numbers) {
     return result;
 }
 
-// 다른사람 풀이 map 이용
+// 다른사람 풀이 (map 이용)
 
 function solution(numbers) {
     const results = [];
