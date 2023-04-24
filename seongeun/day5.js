@@ -4,6 +4,7 @@ function solution(numbers, num1, num2) {
   return numbers.filter((_, idx) => idx >= num1 && idx <= num2);
 }
 
+
 // 새 풀이
 function solution(numbers, num1, num2) {
   return numbers.slice(num1, num2 + 1);

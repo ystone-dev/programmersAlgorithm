@@ -15,6 +15,12 @@ function solution (numbers, num1, num2) {
     return arr
 }
 
+//* +) 다른사람풀이 fillter()
+function solution(numbers, num1, num2) {
+  return numbers.filter((_, idx) => idx >= num1 && idx <= num2);
+}
+
+
 
 //todo 점의 위치 구하기
 //* 가장 단순하게 생각하는 형태 조건문

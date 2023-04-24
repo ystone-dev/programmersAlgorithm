@@ -1,4 +1,4 @@
-//todo 배열 두
+//todo 배열 두배
 // map() : 어떤 배열에 있는 모든 요소들의 값을 변경해서 만든 새로운 배열을 써야 할 때
 function solution (numbers){
     return  numbers.map(item => item * 2);

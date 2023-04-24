@@ -8,7 +8,7 @@ function solution(numbers) {
 
 // reduce 사용
 function solutionB(numbers) {
-    return numbers.reduce((a, b) => [...a, b * 2], []);
+    return numbers.reduce((a, b) => [a, b * 2], []);
 }
 
 // map 사용
