@@ -13,8 +13,8 @@ function solution(num_list) {
 function solution(num_list) {
   return num_list.reduce(
     (acc, cur) => {
-      acc[cur % 2]++;
-      return acc;
+      acc[cur % 2]++; // 짝수 => acc[0]++, 홀수 => acc[1]++
+      return acc; // acc 반환
     },
     [0, 0]
   );
