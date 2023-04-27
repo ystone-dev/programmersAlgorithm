@@ -2,10 +2,11 @@
 
 
 //! 이게 왜 초기값만 나올까..reduce로 어떻게 풀지
+// a++ 왜 안될까
 const num_list = [1, 2, 3, 4, 5];
 
 let x = num_list.reduce((a, b) => {
- return b % 2 === 0 ? a++ : a 
+ return b % 2 === 0 ? a + 1 : a 
 }, 0)
 
 
