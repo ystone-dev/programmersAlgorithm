@@ -5,6 +5,4 @@
 // 제한사항
 // 0 < money ≤ 1,000,000
 
-const solution = (money) => {
-  return (result = [Math.floor(money / 5500), money % 5500]);
-};
+const solution = (money) => (result = [Math.floor(money / 5500), money % 5500]);
