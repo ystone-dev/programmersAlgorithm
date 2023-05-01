@@ -24,8 +24,8 @@ function solution (numbers) {
 
 //? +) 이건 어떻게 작동하는거지? 배열 자체를 식별자로 할 수 있나?
 function solution(numbers) {
-    let [a, b] = numbers.sort((a,b) => b - a);
+    let [x, y] = numbers.sort((a,b) => b - a);
     // 이렇게 배열 개수를 설정해 놓으면 딱 2개만 들어가는건가
-    return a * b;
+    return x * y;
 }
 
