@@ -50,6 +50,16 @@ str2.forEach(el => {
     }
 })
 
+
+str2.forEach(el => {
+
+    for (let i = 1; i <= 3; i++){
+        arr.push(el);
+    }
+} 
+)
+return arr;
+
 //* 정답
 function solution(my_string, n){
     let arr = [];
