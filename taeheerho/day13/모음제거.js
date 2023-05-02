@@ -20,7 +20,7 @@ function solution(my_string){
 
 
 
-//* +)승표님의 indeOf 활용답
+//* +)승표님의 indexOf 활용답
 function solution(my_string) {
     var answer = '';
     let arr =['a','e','i','o','u'];
