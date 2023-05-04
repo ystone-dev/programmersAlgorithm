@@ -21,3 +21,11 @@ function solutionB(n) {
     .split("")
     .reduce((acc, cur) => acc + Number(cur), 0);
 }
+
+// Array.from() 
+function solutionC(n) {
+  let result = 0;
+  const arr = Array.from(String(n), Number);
+  arr.map(item => result += item );
+  return result;
+}
