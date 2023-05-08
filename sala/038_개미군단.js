@@ -4,3 +4,14 @@ function solution(hp) {
     Math.floor(hp / 5) + Math.floor((hp % 5) / 3) + Math.floor((hp % 5) % 3)
   );
 }
+
+// 다른 풀이법
+function solution(hp) {
+  let ant = 0;
+
+  for (let i = 5; i > 0; i -= 2) {
+    ant += parseInt(hp / i);
+    hp %= i;
+  }
+  return ant;
+}
