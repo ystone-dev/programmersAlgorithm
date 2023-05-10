@@ -10,5 +10,5 @@
 const solution = (my_string) =>
   my_string
     .match(/\d/g)
-    .map(parseInt)
+    .map(Number)
     .sort((a, b) => a - b);
