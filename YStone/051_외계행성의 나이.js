@@ -47,4 +47,5 @@ const solution = (age) => {
 };
 
 const solution = (age) =>
-  age.toString().replace(/[0-9]/g, (num) => "abcdefghij"[num]); // 굳이 대괄호 안에 num을 숫자형으로 바꿔주지 않아도 자동으로 바뀜
+  age.toString().replace(/[0-9]/g, (num) => "abcdefghij"[num]);
+// 굳이 대괄호 안에 num을 숫자형으로 바꿔주지 않아도 자동으로 바뀜
