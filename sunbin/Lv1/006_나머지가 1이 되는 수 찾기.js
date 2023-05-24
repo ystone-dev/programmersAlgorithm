@@ -5,9 +5,3 @@ function solution(n) {
     }
   }
 }
-
-
-// 다른 풀이: Array, fill, map
-function solutionB(x, n) {
-  return Array(n).fill(x).map((v, i) => (i + 1) * v)
-}
