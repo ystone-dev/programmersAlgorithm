@@ -1,10 +1,10 @@
-# 💻Programmers Lv.0 문제 풀이
+# 💻Programmers 알고리즘 문제 풀이
 
 [코딩테스트 입문 | 프로그래머스 스쿨](https://school.programmers.co.kr/learn/challenges/beginner?order=acceptance_desc&languages=javascript&page=1, "programmers link")
 
 # 
 
-> **정답률 높은 순**으로, 매일 **4문제씩** 풉니다! (상황에 따라 달라질 예정!)
+> **정답률 높은 순**으로, 매일 풉니다!
 
 ---
 ## 👨🏻‍💻Language
@@ -18,7 +18,7 @@
 |   사라   |                                                                                                     <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">                                                                                                     |
 
 ---
-## ❗️문제
+## ❗️Lv.0
 
 - [x] 두 수의 차
 - [x] 두 수의 곱
